@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/.github.io/Melvin/static/css/main.0918b8f8.css",
-    "main.js": "/.github.io/Melvin/static/js/main.8babe455.js",
-    "static/js/453.d8840585.chunk.js": "/.github.io/Melvin/static/js/453.d8840585.chunk.js",
-    "index.html": "/.github.io/Melvin/index.html",
-    "main.0918b8f8.css.map": "/.github.io/Melvin/static/css/main.0918b8f8.css.map",
-    "main.8babe455.js.map": "/.github.io/Melvin/static/js/main.8babe455.js.map",
-    "453.d8840585.chunk.js.map": "/.github.io/Melvin/static/js/453.d8840585.chunk.js.map"
+    "main.css": "/.github.io/my-app/static/css/main.0918b8f8.css",
+    "main.js": "/.github.io/my-app/static/js/main.12e77779.js",
+    "static/js/453.d8840585.chunk.js": "/.github.io/my-app/static/js/453.d8840585.chunk.js",
+    "index.html": "/.github.io/my-app/index.html",
+    "main.0918b8f8.css.map": "/.github.io/my-app/static/css/main.0918b8f8.css.map",
+    "main.12e77779.js.map": "/.github.io/my-app/static/js/main.12e77779.js.map",
+    "453.d8840585.chunk.js.map": "/.github.io/my-app/static/js/453.d8840585.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0918b8f8.css",
-    "static/js/main.8babe455.js"
+    "static/js/main.12e77779.js"
   ]
 }
