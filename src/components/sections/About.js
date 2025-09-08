@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Tab, Tabs } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { FaCode, FaGraduationCap, FaBriefcase, FaAward } from 'react-icons/fa';
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('about');
@@ -29,44 +28,14 @@ const About = () => {
     }
   };
 
-  const timelineData = [
-    {
-      year: "2024",
-      title: "Développeur Full Stack Senior",
-      company: "TechCorp",
-      description: "Développement d'applications web complexes avec React, Node.js et AWS. Leadership d'une équipe de 5 développeurs.",
-      icon: <FaBriefcase />
-    },
-    {
-      year: "2022",
-      title: "Développeur Frontend",
-      company: "StartupXYZ",
-      description: "Création d'interfaces utilisateur modernes avec React et TypeScript. Amélioration des performances de 40%.",
-      icon: <FaCode />
-    },
-    {
-      year: "2020",
-      title: "Master en Informatique",
-      company: "Université Tech",
-      description: "Spécialisation en développement web et intelligence artificielle. Mention Très Bien.",
-      icon: <FaGraduationCap />
-    },
-    {
-      year: "2018",
-      title: "Certification AWS",
-      company: "Amazon Web Services",
-      description: "Solutions Architect Associate. Expertise en cloud computing et architecture scalable.",
-      icon: <FaAward />
-    }
-  ];
+  // timeline tab removed
 
   const skills = [
-    { name: "React", level: 95 },
-    { name: "Node.js", level: 90 },
-    { name: "TypeScript", level: 85 },
-    { name: "Python", level: 80 },
-    { name: "AWS", level: 75 },
-    { name: "Docker", level: 70 }
+    { name: "HTML", level: 95 },
+    { name: "CSS", level: 90 },
+    { name: "React", level: 85 },
+    { name: "PHP", level: 70 },
+    { name: "Laravel", level: 60 }
   ];
 
   return (
@@ -147,35 +116,7 @@ const About = () => {
                   </motion.div>
                 </Tab>
 
-                <Tab eventKey="timeline" title="Parcours">
-                  <motion.div
-                    variants={itemVariants}
-                    className="tab-content"
-                  >
-                    <div className="timeline">
-                      {timelineData.map((item, index) => (
-                        <motion.div
-                          key={index}
-                          className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}
-                          initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 0.8, delay: index * 0.2 }}
-                        >
-                          <div className="timeline-content">
-                            <div className="timeline-icon">
-                              {item.icon}
-                            </div>
-                            <div className="timeline-year">{item.year}</div>
-                            <h4>{item.title}</h4>
-                            <h5>{item.company}</h5>
-                            <p>{item.description}</p>
-                          </div>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </motion.div>
-                </Tab>
+                {/* Tab Parcours supprimé selon demande */}
 
                 <Tab eventKey="skills" title="Compétences">
                   <motion.div

@@ -58,7 +58,7 @@ const Skills = () => {
       color: "#68a063",
       skills: [
         { name: "Node.js", level: 85, icon: <FaNodeJs />, description: "Express, REST APIs, GraphQL" },
-        { name: "Python", level: 80, icon: <FaPython />, description: "Django, Flask, FastAPI" },
+        { name: "Laravel", level: 10, icon: <FaJs />, description: "PHP, MVC, Eloquent" },
         { name: "Database", level: 75, icon: <FaDatabase />, description: "MongoDB, PostgreSQL, Redis" },
         { name: "Git", level: 90, icon: <FaGitAlt />, description: "Version Control, CI/CD" }
       ]
@@ -210,7 +210,7 @@ const Skills = () => {
                   <div className="cert-icon">
                     <FaReact />
                   </div>
-                  <h5>React Developer</h5>
+                  <h5>Développeur web</h5>
                   <p>Meta</p>
                   <span className="cert-date">Prévu 2025</span>
                 </motion.div>
