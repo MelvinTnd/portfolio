@@ -191,14 +191,14 @@ const Hero = () => {
 
       <style jsx>{`
         .hero-section {
-          background: radial-gradient(1000px 400px at -10% -10%, rgba(255,255,255,0.2), transparent), var(--gradient-primary);
+          background: radial-gradient(1000px 400px at -10% -10%, rgba(255,255,255,0.2), transparent), linear-gradient(315deg, #ff6b6b 0%, #0099cc 50%, #00d4ff 100%);
           color: white;
           position: relative;
           overflow: hidden;
         }
 
         [data-theme="dark"] .hero-section {
-          background: var(--gradient-primary);
+          background: linear-gradient(315deg, #ff6b6b 0%, #0099cc 50%, #00d4ff 100%);
         }
 
         .hero-section::before {
