@@ -63,7 +63,7 @@ const Projects = () => {
         "Tableau de bord administrateur"
       ],
       github: "https://github.com/MelvinTnd/ma-boutique",
-      live: "",
+      live: "https://melvintnd.github.io/ma-boutique/",
       status: "Terminé"
     },
     {
