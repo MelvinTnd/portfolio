@@ -4,12 +4,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { 
   FaGithub, 
   FaExternalLinkAlt, 
-  FaTimes,
   FaReact,
   FaNodeJs,
   FaPython,
   FaJs,
-  FaHtml5,
   FaCss3Alt,
   FaDatabase,
   FaMobile

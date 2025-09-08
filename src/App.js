@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { motion } from 'framer-motion';
 
 // Import des composants
 import { ThemeProvider } from './contexts/ThemeContext';
