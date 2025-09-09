@@ -164,11 +164,11 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: "Data Analytics Dashboard",
+      title: "StreamHub",
       category: "fullstack",
       image: process.env.PUBLIC_URL + '/images/dashbord.jpg',
-      description: "Tableau de bord d'analytics avec visualisations interactives et rapports en temps réel.",
-      longDescription: "Un tableau de bord d'analytics complet avec des visualisations interactives, des rapports en temps réel, et des fonctionnalités d'export. Développé avec React, D3.js, et Node.js.",
+      description: "Plateforme de streaming pour découvrir films et séries avec recommandations personnalisées.",
+      longDescription: "StreamHub est une plateforme moderne pour découvrir les meilleurs films et séries. Trouvez où regarder vos contenus préférés sur toutes les plateformes de streaming avec des recommandations personnalisées.",
       technologies: [
         { name: "React", icon: <FaReact /> },
         { name: "D3.js", icon: <FaJs /> },
@@ -176,14 +176,14 @@ const Projects = () => {
         { name: "PostgreSQL", icon: <FaDatabase /> }
       ],
       features: [
-        "Visualisations interactives",
-        "Rapports en temps réel",
-        "Export de données",
-        "Filtres avancés",
-        "Tableau de bord personnalisable"
+        "Découverte de films et séries",
+        "Recommandations personnalisées",
+        "Multi-plateformes streaming",
+        "Interface moderne et fluide",
+        "Top tendances et nouveautés"
       ],
-      github: "https://github.com",
-      live: "https://example.com",
+      github: "https://github.com/MelvinTnd/streamhub",
+      live: "https://melvintnd.github.io/streamhub/",
       status: "Terminé"
     }
   ];
