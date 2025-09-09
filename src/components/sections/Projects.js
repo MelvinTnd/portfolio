@@ -158,8 +158,8 @@ const Projects = () => {
         "Optimisé SEO",
         "Performance optimisée"
       ],
-      github: "https://github.com",
-      live: "https://example.com",
+      github: "https://github.com/MelvinTnd/portfolio",
+      live: "https://melvintnd.github.io/portfolio/",
       status: "Terminé"
     },
     {
