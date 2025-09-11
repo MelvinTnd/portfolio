@@ -211,8 +211,8 @@ const Skills = () => {
                     <FaReact />
                   </div>
                   <h5>Développeur web</h5>
-                  <p>Meta</p>
-                  <span className="cert-date">Prévu 2025</span>
+                  <p>EIG BENIN</p>
+                  <span className="cert-date">En cours</span>
                 </motion.div>
               </Col>
               <Col md={4} className="mb-3">
@@ -226,7 +226,7 @@ const Skills = () => {
                     <FaAws />
                   </div>
                   <h5>Certification à venir</h5>
-                  <p>Amazon Web Services</p>
+                  <p>Web Services</p>
                   <span className="cert-date">TBA</span>
                 </motion.div>
               </Col>
@@ -483,6 +483,14 @@ const Skills = () => {
 
           .skill-icon {
             margin: 0 0 1rem 0;
+          }
+          
+          .skill-card {
+            padding: 1.25rem;
+          }
+          
+          .skill-percentage {
+            margin-top: 0.5rem;
           }
         }
       `}</style>

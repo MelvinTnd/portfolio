@@ -191,14 +191,14 @@ const Hero = () => {
 
       <style jsx>{`
         .hero-section {
-          background: radial-gradient(1000px 400px at -10% -10%, rgba(255,255,255,0.2), transparent), linear-gradient(315deg, #ff6b6b 0%, #0099cc 50%, #00d4ff 100%);
+          background: radial-gradient(1000px 400px at -10% -10%, rgba(255,255,255,0.2), transparent), linear-gradient(315deg, #6a11cb 0%, #2575fc 100%);
           color: white;
           position: relative;
           overflow: hidden;
         }
 
         [data-theme="dark"] .hero-section {
-          background: linear-gradient(315deg, #ff6b6b 0%, #0099cc 50%, #00d4ff 100%);
+          background: linear-gradient(315deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
         }
 
         .hero-section::before {
@@ -253,6 +253,7 @@ const Hero = () => {
           display: flex;
           align-items: center;
           gap: 1rem;
+          flex-wrap: wrap;
         }
 
         .social-text {
@@ -371,6 +372,13 @@ const Hero = () => {
           .hero-image-container {
             height: 300px;
             margin-top: 2rem;
+          }
+          
+          .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0.75rem;
           }
           
           .avatar-circle {
